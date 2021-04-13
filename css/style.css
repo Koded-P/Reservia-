@@ -702,6 +702,7 @@ ul li a {
 	justify-content: space-between;
 }
 .portrait-layout-row img {
+    width: 99%;
 	height: 200px;
 }
 .portrait-layout-row:nth-child(2) {
