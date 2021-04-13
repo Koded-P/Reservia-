@@ -10,7 +10,6 @@ a {
 }
 ul {
 	display: flex;
-	justify-content: flex-right;
 	align-items: center;
 	flex-direction: row;
 	list-style-type: none;
@@ -20,7 +19,7 @@ ul li {
 }
 ul li a {
 	text-decoration: none;
-	color: solid black;
+	color: black;
 	padding: 5px 20px;
 }
 .nav-link-container {
@@ -732,7 +731,6 @@ ul li a {
 	    font-weight: 400;
 	    color: black;
 	    text-decoration: none;
-	    text-decoration-thickness: 3px;
 	    text-decoration-color: #F2F2F2;
 	}
 	a:hover {
@@ -740,7 +738,6 @@ ul li a {
 	    font-weight: 600;
 	    color: #0065FC; 
 	    text-decoration-line: none;
-        text-decoration-thickness: 4px;
         text-decoration-color: #0065FC;
     }
 	.nav-link-container {
@@ -752,7 +749,7 @@ ul li a {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		width: 100;
+		width: 100%;
 	}
 	.logo {
 		order: 0;
@@ -842,7 +839,7 @@ ul li a {
 	}
 	.search-container button i {
 		display: flex;
-		flex-direction: center;
+		flex-direction: row;
 		margin-top: 10px;
 		font-size: 20px;
 	}
@@ -927,7 +924,6 @@ ul li a {
 	}
 	.card-information {
 		margin: 0px;
-		width: 100%Z
 	}
 	.title-of-card {
 		margin-top: 0px;
