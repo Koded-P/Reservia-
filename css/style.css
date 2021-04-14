@@ -1066,7 +1066,9 @@ ul li a {
 		width: 135%;
 	}
 	.card-subtitle {
-		width: 34%
+		width: 34%;
+		display: flex;
+		flex-direction: row;
 	}
     .activity-container {
     	width: 140%;
